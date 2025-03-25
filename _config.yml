@@ -1,8 +1,7 @@
-title: Working Man Needs Money
-description: A landing page for peers looking to work.
-baseurl: "" 
-url: "https://working-man-needs-money.github.io/WMNM/"
-
+title: "Working Man Needs Money"
+description: "A landing page for peers looking to work."
+baseurl: "/WMNM"  
+url: "https://working-man-needs-money.github.io" 
 theme: minima
 
 plugins:
