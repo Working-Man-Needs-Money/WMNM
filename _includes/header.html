@@ -49,8 +49,18 @@
                         <ul class="list-inline intro-social-buttons">
                             {% for social in site.social %}
                             <li>
-                                <a href="{{ social.url }}" class="btn btn-default btn-lg"><i class="fa fa-{{ social.title }} fa-fw"></i> <span class="network-name">{{ social.title }}</span></a>
+                                <a href="{{ social.url }}" class="btn btn-default btn-lg">
+                                    {% if social.icon %}
+                                    <!-- Render the image icon if it exists -->
+                                    <img src="{{ social.icon }}" alt="{{ social.title }} Icon" style="height: 20px; margin-right: 5px;">
+                                    {% else %}
+                                    <!-- Render Font Awesome icon if no image icon is specified -->
+                                    <i class="fa fa-{{ social.title }} fa-fw"></i>
+                                    {% endif %}
+                                    <span class="network-name">{{ social.title }}</span>
+                                </a>
                             </li>
+
                             {% endfor %}
                         </ul>
                     </div>
