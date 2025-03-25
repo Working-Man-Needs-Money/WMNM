@@ -12,7 +12,11 @@
 						{% for social in site.social %}
 						<li>
 							<a href="{{ social.url }}" class="btn btn-default btn-lg" target="_blank">
-								<img src="https://working-man-needs-money.github.io/WMNM/img/logos/notion-logo.png" alt="Notion Icon" style="height: 20px; margin-right: 5px;">
+								{% if social.icon %}
+								<img src="{{ social.icon }}" alt="{{ social.title }} Icon" style="height: 20px; margin-right: 5px;">
+								{% else %}
+								<i class="fa fa-{{ social.title }} fa-fw"></i>
+								{% endif %}
 								<span class="network-name">{{ social.title | capitalize }}</span>
 							</a>
 						</li>
