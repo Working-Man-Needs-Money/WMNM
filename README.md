@@ -5,7 +5,7 @@ Welcome to **Working Man Needs Money (WM|NM)** – a collaborative platform desi
 
 Our goal is to provide a supportive network where everyone's skills can be leveraged to create high-quality solutions.
 
-## How to Run the Project Locally in VScode
+## How to Run the Project Locally in VS Code
 
 1. **Check if Jekyll is installed**:
    ```bash
