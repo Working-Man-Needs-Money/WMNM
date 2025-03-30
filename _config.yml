@@ -32,4 +32,7 @@ social:
   - title: projects
     url: https://github.com/orgs/Working-Man-Needs-Money/projects/2/
     icon: "/WMNM/img/logos/project-logo.png"
+  - title: wiki
+    url: https://github.com/Working-Man-Needs-Money/WMNM/wiki
+    icon: "/WMNM/img/logos/wiki-logo.png"
 
