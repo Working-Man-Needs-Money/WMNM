@@ -1,5 +1,6 @@
 
 # WM|NM (Working Man Needs Money)
+- https://working-man-needs-money.github.io/WMNM/
 
 Welcome to **Working Man Needs Money (WM|NM)** – a collaborative platform designed to connect freelancers, developers, and entrepreneurs.
 
